@@ -11,12 +11,13 @@ int main()
 	REP(i,1,n)
 		{
 			cin >> x ;
-			st.push(x);	
+			st.push(x);	 // bo vao stack 
 		}	
 	while(!st.empty())
 		{
-			cout << st.top() << " " ;
-			st.pop() ;	
+			cout << st.top() << " " ; // xuat top 
+			st.pop() ; // xoa stack 	
 		}			
 	return 0;
 }
+
